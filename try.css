@@ -1,0 +1,35 @@
+.contain{
+    vertical-align: middle;
+    margin-top: 10px;
+    padding:60px;
+    width: 300px;
+}
+
+.activator{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px 0px 10px 15px;
+    background: #efefef;
+    width: 300px;
+}
+
+.dot{
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.contain:hover + .dot {
+    transform: translateX(275px);
+    opacity: 1;
+}
+
+
+/*--------------------------APPROACHABLE-------------------------------*/
+
+.approachable {
+    background: mediumturquoise;
+    transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1), opacity.6s cubic-bezier(0.86, 0, 0.07, 1); 
+}
