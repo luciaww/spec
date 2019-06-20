@@ -1,0 +1,84 @@
+
+.container {
+  margin: 0px 0px 25px 10px;
+  padding: 3px 3px 10px 25px;
+  background: #efefef;
+  width: 300px;
+}
+
+.circle {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle:hover {
+  transform: translateX(200px);
+  opacity: 1;
+}
+
+/* approachable */
+.circle4 {
+  @extend .circle;
+  background: mediumturquoise;
+  transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1), opacity.6s cubic-bezier(0.86, 0, 0.07, 1); 
+  opacity: .5;
+}
+
+/* colloquial */
+.circle1 {
+  @extend .circle;
+  background: salmon;
+  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), opacity.6s cubic-bezier(0.86, 0, 0.07, 1); 
+  opacity: .5;
+}
+
+/* concise */
+.circle2 {
+   @extend .circle;
+  background: lightskyblue;
+  transition: transform 0.6s cubic-bezier(.23,.84,.36,.99), opacity.6s cubic-bezier(.23,.84,.36,.99); 
+  opacity: .5;;
+}
+
+/* friendly */
+.circle3 {
+  @extend .circle;
+  background: khaki;
+  transition: transform 0.6s cubic-bezier(.14,.83,.5,1.23), opacity.6s cubic-bezier(.14,.83,.5,1.23); 
+  opacity: .5;
+}
+
+/* helpful */
+.circle0 {
+  @extend .circle;
+  background: PaleTurquoise;
+  transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1), opacity.6s cubic-bezier(0.86, 0, 0.07, 1); 
+  opacity: .5;
+} 
+
+/* lighthearted */
+.circle5 {
+  @extend .circle;
+  background: thistle;
+  transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1), opacity.6s cubic-bezier(0.86, 0, 0.07, 1); 
+  opacity: .5;
+}
+
+/* professional */
+.circle6 {
+  @extend .circle;
+  background: gold;
+  transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1), opacity.6s cubic-bezier(0.86, 0, 0.07, 1); 
+  opacity: .5;
+}
+
+/* smart */
+.circle7 {
+  @extend .circle;
+  background: mahoghany;
+  transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1), opacity.6s cubic-bezier(0.86, 0, 0.07, 1); 
+  opacity: .5;
+}
